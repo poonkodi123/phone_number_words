@@ -26,7 +26,7 @@ class FindWord
       results <<  [(first_combination & all_letters), (second_combination & all_letters)] 
     end 
     #check onces all combination words, join into results array
-    results <<(keys.shift.product(*keys).map(&:join) & all_letters).join(', ')
+    results <<(keys.shift.product(*keys).map(&:join) & all_letters).join(',')
     return  results
    end
 end

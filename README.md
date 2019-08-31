@@ -1,4 +1,7 @@
 Convert phone number to words / words combinations in Ruby:
+
+
+
 Given a 10 digit phone number, you must return all possible words or combination of words from the provided dictionary, that can be mapped back as a whole to the number.
 
 With this we can generate numbers like 1-800-motortruck which is easier to remember then 1-800-6686787825 The phone number mapping to letters is as follows:
@@ -27,4 +30,4 @@ To get give you an initial verification, the following must be true:
 
 2282668687 should return the following list [["act", "amounts"], ["act", "contour"], ["acta", "mounts"], ["bat", "amounts"], ["bat", "contour"], ["cat", "contour"], "catamounts"]
 
-The conversion of a 10 digit phone number should be performed within 1000ms.
+The conversion of a 10 digit phone number should be performed within 0.4494347360014217.
